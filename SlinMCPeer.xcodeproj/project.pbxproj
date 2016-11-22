@@ -13,6 +13,8 @@
 		E71C349D1DDEF29B003919AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71C349B1DDEF29B003919AB /* Main.storyboard */; };
 		E71C349F1DDEF29B003919AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71C349E1DDEF29B003919AB /* Assets.xcassets */; };
 		E71C34A21DDEF29B003919AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71C34A01DDEF29B003919AB /* LaunchScreen.storyboard */; };
+		E71C34AA1DDEF3E2003919AB /* ConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C34A91DDEF3E2003919AB /* ConnectionVC.swift */; };
+		E71C34AC1DE3ED53003919AB /* MCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C34AB1DE3ED53003919AB /* MCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E71C349E1DDEF29B003919AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71C34A11DDEF29B003919AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E71C34A31DDEF29B003919AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71C34A91DDEF3E2003919AB /* ConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionVC.swift; sourceTree = "<group>"; };
+		E71C34AB1DE3ED53003919AB /* MCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E71C34971DDEF29B003919AB /* FirstViewController.swift */,
 				E71C34991DDEF29B003919AB /* SecondViewController.swift */,
 				E71C349B1DDEF29B003919AB /* Main.storyboard */,
+				E71C34A91DDEF3E2003919AB /* ConnectionVC.swift */,
+				E71C34AB1DE3ED53003919AB /* MCManager.swift */,
 				E71C349E1DDEF29B003919AB /* Assets.xcassets */,
 				E71C34A01DDEF29B003919AB /* LaunchScreen.storyboard */,
 				E71C34A31DDEF29B003919AB /* Info.plist */,
@@ -142,7 +148,9 @@
 			files = (
 				E71C349A1DDEF29B003919AB /* SecondViewController.swift in Sources */,
 				E71C34961DDEF29B003919AB /* AppDelegate.swift in Sources */,
+				E71C34AA1DDEF3E2003919AB /* ConnectionVC.swift in Sources */,
 				E71C34981DDEF29B003919AB /* FirstViewController.swift in Sources */,
+				E71C34AC1DE3ED53003919AB /* MCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +273,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCLCJ9X7RB;
 				INFOPLIST_FILE = SlinMCPeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.newsoft.SlinMCPeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,10 +288,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KCLCJ9X7RB;
 				INFOPLIST_FILE = SlinMCPeer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.newsoft.SlinMCPeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
